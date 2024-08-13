@@ -1,0 +1,11 @@
+restcountries:
+  url: https://restcountries.com/v3.1
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: countries-finder
+      auto-index-creation: true
+
